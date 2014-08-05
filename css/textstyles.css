@@ -1,6 +1,32 @@
+html{
+	background: url(../Gallery/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: coverl
+}
+
 .site-title{
 	text-align: center;
 	color: red;
 	font-style: normal;
 	font-size: 50px;
+	text-shadow: 4px 4px 0px pink;
+}
+
+#home-directory-div{
+	position: fixed;
+	right: 5px;
+	top: 100px;
+}
+
+#home-directory-table{
+	border-collapse: collapse;
+}
+
+#home-directory-table th{
+	background-color: grey;
+	opacity:.50;
+	width: 100px;
+	height: 10px;
 }
